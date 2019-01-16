@@ -1,0 +1,48 @@
+#wrapper {
+  padding: 50px 90px;
+  background-color: lightgrey;
+}
+
+#main {
+  margin-top: 30px;
+}
+
+#tabs {
+  border: 1px solid rgb(26, 23, 197);
+  background-color: #6dd6f0;
+  margin-top: 30px;
+  padding-top: 7px;
+  white-space: pre-wrap;
+}
+
+.btn {
+  margin-left: 15px;
+}
+
+.tabcontent {
+  padding: 20px;
+  padding-top: 35px;
+  background-color: rgb(110, 219, 110);
+  border: 1px solid green;
+  border-top: none;
+}
+
+.tab {
+  color: white;
+  background-color: blue;
+  padding: 8px 16px;
+  padding-bottom: 3px;
+  font-size: 20px;
+}
+
+.tab:hover {
+  background-color: rgb(173, 225, 240);
+}
+
+.tab.active {
+  background-color: rgb(110, 219, 110);
+}
+
+li {
+  font-size: 18px;
+}
