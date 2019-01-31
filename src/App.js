@@ -6,18 +6,18 @@ import {BrowserRouter, Route, NavLink} from "react-router-dom";
 class App extends Component {
   render() {
     return (
-      <div className = "App">
-        <h1>Dojo Dossier</h1><br></br>
-        <h4>Welcome to Dojo Dossier! Create profiles of various people or characters, fictional or real,
-          and describe about them by adding various characteristics and traits about them.
-        </h4>
-        <BrowserRouter>
+      <BrowserRouter>
+        <div className = "App">
+          <h1>Dojo Dossier</h1><br></br>
+          <h4>Welcome to Dojo Dossier! Create profiles of various people or characters, fictional or real,
+            and describe about them by adding various characteristics and traits about them.
+          </h4>
           <div>
             <Route path = "/" component = {Dossier} />
             <Route path = "/item/:id" component = {Info} />
           </div>
-        </BrowserRouter>
-      </div>
+        </div>
+      </BrowserRouter>
     );
   }
 }
