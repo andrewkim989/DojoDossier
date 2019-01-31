@@ -44,6 +44,9 @@ class Dossier extends Component {
     if (title.length > 3) {
       this.setState({submit: true});
     }
+    else {
+      this.setState({submit: false});
+    }
   }
 
   submit(e) {
@@ -97,6 +100,9 @@ class Info extends Component {
 
     if (item.length > 3) {
       this.setState({submit: true});
+    }
+    else {
+      this.setState({submit: false});
     }
   }
 
